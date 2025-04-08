@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CozyLoops Crochet</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-pink-50 text-gray-800">
+  <!-- Navbar -->
+  <nav class="bg-white shadow-md py-4 px-6 flex justify-between items-center sticky top-0 z-50">
+    <h1 class="text-2xl font-bold text-pink-600">CozyLoops</h1>
+    <ul class="flex space-x-6">
+      <li><a href="#about" class="hover:text-pink-600 font-medium">About</a></li>
+      <li><a href="#products" class="hover:text-pink-600 font-medium">Products</a></li>
+      <li><a href="#cart" class="hover:text-pink-600 font-medium">Cart</a></li>
+      <li><a href="#contact" class="hover:text-pink-600 font-medium">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="bg-pink-100 text-center py-20 px-4">
+    <h2 class="text-4xl font-bold mb-4">Handmade Crochet with Love</h2>
+    <p class="text-lg mb-6">Discover beautiful, handcrafted crochet items made just for you.</p>
+    <a href="#products" class="bg-pink-600 text-white py-2 px-6 rounded-full hover:bg-pink-500">Shop Now</a>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="py-16 px-6 max-w-5xl mx-auto">
+    <h3 class="text-3xl font-semibold mb-6">About CozyLoops</h3>
+    <p class="text-lg leading-relaxed">CozyLoops is a small, family-run business that specializes in unique, handmade crochet items. From cozy scarves to adorable plushies, each item is made with care and creativity.</p>
+  </section>
+
+  <!-- Products Section -->
+  <section id="products" class="bg-white py-16 px-6">
+    <h3 class="text-3xl font-semibold mb-10 text-center">Our Products</h3>
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+      <div class="bg-pink-50 p-4 rounded-lg shadow-md">
+        <img src="https://via.placeholder.com/300x200?text=Crochet+Hat" alt="Crochet Hat" class="rounded-md mb-4">
+        <h4 class="text-xl font-semibold">Crochet Hat</h4>
+        <p class="text-gray-600">Warm and stylish handmade hat perfect for winter.</p>
+      </div>
+      <div class="bg-pink-50 p-4 rounded-lg shadow-md">
+        <img src="https://via.placeholder.com/300x200?text=Amigurumi+Bear" alt="Amigurumi Bear" class="rounded-md mb-4">
+        <h4 class="text-xl font-semibold">Amigurumi Bear</h4>
+        <p class="text-gray-600">Cute and cuddly crochet bear, great as a gift.</p>
+      </div>
+      <div class="bg-pink-50 p-4 rounded-lg shadow-md">
+        <img src="https://via.placeholder.com/300x200?text=Crochet+Blanket" alt="Crochet Blanket" class="rounded-md mb-4">
+        <h4 class="text-xl font-semibold">Crochet Blanket</h4>
+        <p class="text-gray-600">Soft, cozy blanket perfect for snuggling.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Cart Section -->
+  <section id="cart" class="py-16 px-6 max-w-5xl mx-auto">
+    <h3 class="text-3xl font-semibold mb-6">Your Cart</h3>
+    <p class="text-lg text-gray-700">Cart functionality coming soon! Stay tuned as we build a seamless checkout experience just for you.</p>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="bg-pink-100 py-16 px-6">
+    <h3 class="text-3xl font-semibold mb-6 text-center">Get in Touch</h3>
+    <form class="max-w-xl mx-auto space-y-4">
+      <input type="text" placeholder="Your Name" class="w-full p-3 rounded-md border border-gray-300">
+      <input type="email" placeholder="Your Email" class="w-full p-3 rounded-md border border-gray-300">
+      <textarea placeholder="Your Message" rows="4" class="w-full p-3 rounded-md border border-gray-300"></textarea>
+      <button type="submit" class="bg-pink-600 text-white py-2 px-6 rounded-full hover:bg-pink-500">Send Message</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-white text-center py-6 shadow-inner">
+    <p>&copy; 2025 CozyLoops. All rights reserved.</p>
+  </footer>
+</body>
+</html>
